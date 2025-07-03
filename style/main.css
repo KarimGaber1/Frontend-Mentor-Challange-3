@@ -1,0 +1,101 @@
+:root {
+    --main-color: #F3EBE4;
+    --card-color: #FFFFFF;
+    --font-color: #78909C;
+    --btn-background-color: #4e6a60;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Start Hero Section  */
+.hero-section {
+    background: var(--main-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+}
+
+.hero-content .hero-img img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: block;
+}
+
+.hero-caption {
+    background: var(--card-color);
+    padding: 20px;
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.hero-caption .title {
+    color: var(--font-color);
+    font-size: 10px;
+}
+
+.hero-caption h2 {
+    margin: 10px 0;
+    padding: 0 5px;
+    line-height: 23px;
+}
+
+.hero-caption p {
+    color: var(--font-color);
+    font-size: 12px;
+    margin: 20px 0;
+    line-height: 20px;
+}
+
+.hero-caption .price {
+    display: flex;
+    align-items: center;
+}
+
+.hero-caption .price h3 {
+    color: rgb(197, 77, 55);
+    font-size: 25px;
+}
+
+.hero-caption .price span {
+    color: var(--font-color);
+    font-size: 12px;
+    padding: 0 15px;
+    text-decoration: line-through;
+}
+
+.hero-caption .btn {
+    background: var(--btn-background-color);
+    margin: 20px 0;
+    margin-bottom: 0;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+}
+.hero-caption .btn:hover{
+    background-color: rgb(96, 28, 28);
+}
+
+.hero-caption .btn span {
+    padding-left: 5px;
+}
+
+/* End Hero Section  */
